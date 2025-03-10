@@ -50,7 +50,7 @@ function sortearAmigo(){
     listaDeAmigos.style.display = 'none'
 
     const resultado = document.getElementById('resultado')
-    resultado.innerHTML = `Felicidades! El amigo sorteado es: ${amigoSorteado}`;
+    resultado.innerHTML = `El amigo secreto sorteado es: ${amigoSorteado}`;
     
     return;
 }
