@@ -46,7 +46,9 @@ function sortearAmigo(){
     const amigoSorteado = listaAmigos[sorteo]
     console.log(sorteo)
     console.log(amigoSorteado)
-    
+    const listaDeAmigos = document.getElementById('listaAmigos');
+    listaDeAmigos.style.display = 'none'
+
     const resultado = document.getElementById('resultado')
     resultado.innerHTML = `Felicidades! El amigo sorteado es: ${amigoSorteado}`;
     
