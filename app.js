@@ -10,7 +10,7 @@ function agregarAmigo(){
         listaAmigos.push (nombre);
         console.log(listaAmigos);
     } else{
-        alert('ingrese un numero valido')
+        alert('Por favor, ingrese un nombre valido')
     }
     
     crearLista();
@@ -40,7 +40,7 @@ function limpiarCaja(){
 
 function sortearAmigo(){
     if(listaAmigos.length < 2){
-        alert('se necesitan al menos 2 amigo para hacer el sorteo')
+        alert('se necesitan al menos 2 amigos para hacer el sorteo')
     }
     const sorteo = Math.floor(Math.random()*listaAmigos.length)
     const amigoSorteado = listaAmigos[sorteo]
