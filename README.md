@@ -6,4 +6,6 @@ INSTRUCCIONES DE USO:
 2. Debes agregar al menos el nombre de 2 amigos para poder realizar el sorteo
 3. Cuando agregues todos los nombre apretar el boton "SORTEAR AMIGO" y se mostrara el nombre sorteado en pantalla.
 
+Link a la pagina:
+https://firmapazagostina.github.io/chalenge-amigo-secreto/
 
